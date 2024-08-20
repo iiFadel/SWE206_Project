@@ -102,11 +102,9 @@ The report includes various diagrams such as Use Case Diagrams, Class Diagrams, 
 
   ```sh
   --module-path /Path/To/javafx-sdk-16/lib --add-modules=javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.web --add-reads javafx.graphics=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.charts=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.iio=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.iio.common=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.css=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.runtime=ALL-UNNAMED
- ``
+ 
  ### Excel File Requirement
-
-	•	Place an Excel file named Competitions Participations.xlsx in the project directory. If using a different file, ensure it has the same cell structure.
+   - Place an Excel file named Competitions Participations.xlsx in the project directory. If using a different file, ensure it has the same cell structure.
 
 ### Notes
-
-	•	The application reads the Excel data upon start, and changes are shown in real-time. However, these changes will only be saved to the Excel file upon closing the program.
+   - The application reads the Excel data upon start, and changes are shown in real-time. However, these changes will only be saved to the Excel file upon closing the program.
