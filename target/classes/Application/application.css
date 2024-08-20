@@ -1,0 +1,9 @@
+.root{
+	-fx-background-image:url("/Application/resources/WelcomePageBG.jpg");
+	-fx-background-size:cover;
+}
+
+.button{
+		-fx-background-image:url("/Application/resources/BlueButton.png");
+	
+}
